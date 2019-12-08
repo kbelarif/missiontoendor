@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: black;
+  background-image:url(death_star.png);
+  background-repeat:no-repeat;
+  background-position: 50% -70%;
+  background-size: 300px;
+  }
+
+  .star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+  }
+  
+  .message {
+    text-align: center;
+    color: rgb(75, 213, 238);
+  }

@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    background-color: black;
+    background-image:url(C3PO_background.png);
+    background-repeat:no-repeat;
+    background-position: 50% -10%
+  }
+  
+  .star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+  }
+  
+  .intro1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 1;
+    animation: intro 20s ease-out 1s;
+    color: rgb(75, 213, 238);
+    font-weight: 400;
+    font-size: 130%;
+    opacity: 0;
+}
+  .intro2{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    z-index: 1;
+    animation: intro 15s ease-out 6s;
+    color: rgb(75, 213, 238);
+    font-weight: 400;
+    font-size: 130%;
+    opacity: 0;
+}
+.intro3{
+  position: absolute;
+  top: 34%;
+  left: 5%;
+  z-index: 1;
+  animation: intro 10s ease-out 11s;
+  color: rgb(75, 213, 238);
+  font-weight: 400;
+  font-size: 130%;
+  opacity: 0;
+}
+.data{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    z-index: 1;
+    animation-duration: 10s;
+    animation-delay: 21s;
+    animation-name: data;
+    animation-iteration-count: infinite;
+    color: rgb(75, 213, 238);
+    font-weight: 400;
+    font-size: 130%;
+    opacity: 0;
+}
+@keyframes intro {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes data {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}

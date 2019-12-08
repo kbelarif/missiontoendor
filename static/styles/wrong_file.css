@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  background-color: black;
+  }
+
+  .star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+  }
+  
+  .title {
+    text-align: center;
+    color: rgb(75, 213, 238);
+  }
