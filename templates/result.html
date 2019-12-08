@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<link rel="stylesheet" href="/static/styles/result.css" />
+		<title> C3PO </title>
+	</head>
+
+	<body>
+        <script type="text/javascript" src="/static/js/index.js"></script>
+
+        <section class = "title">
+            <h2>The probability of success is: {{ proba *100}} % </h2>
+        </section>
+                          
+        <p class = "path">
+         Here are the best paths to accomplish the mission
+         <ul class = "path">
+             {% for i in range(0,le) %} 
+                <li> {{li[i]}} </li>
+             {%endfor%}
+         </ul>
+        </p>
+
+        <nav>
+            <ul>
+                <li> 
+                    <a href = "/"> Submit a new file</a>
+                </li>
+            </ul>
+        </nav>
+                
+    </body>
+</html>

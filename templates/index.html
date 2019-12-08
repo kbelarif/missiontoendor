@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset = "utf-8"/>
+		<link rel="stylesheet" href="/static/styles/index.css" />
+		<title> C3PO </title>
+	</head>
+
+	<body>
+		<script type="text/javascript" src="/static/js/index.js"></script>
+		<section class="intro1">
+			Master...
+		  </section>
+		<section class="intro2">
+			Endor is threatened by <br> 
+			the Death Star....
+		</section>
+		<section class ="intro3" >
+			Your Rogue squadron is <br> our only chance
+		</section>
+		<section class= "data">
+			Please upload the a file named empire.json <br>
+			containing the Empire's plans
+			<form action = "http://localhost:5000/" method = "POST" 
+				enctype = "multipart/form-data">
+				<input type = "file" name = "file" />
+				<input type = "submit"/>
+			</form>
+		</section>
+	</body>
+</html>
